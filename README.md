@@ -28,8 +28,10 @@ The project is structured into sequential notebooks, each focusing on a critical
 | `01-eda.ipynb` | **Exploratory Data Analysis**. Initial look at the data structure, distributions, and potential issues. | EDA, Data Loading, Visualization. |
 | `02-repeated_ids.ipynb` | **Data Cleaning**. Handling duplicate entries for the same house sold multiple times. | Data Cleaning, Duplicates, Consistency. |
 | `03-temporal_leakage.ipynb` | **Splitting Strategy**. Why random splitting is dangerous for time-series-like data. Analysis of price trends over time. | **Temporal Split**, Data Leakage, Train/Test Split. |
-| `04-preprocessing.ipynb` | **Feature Engineering**. Creating a robust preprocessing pipeline for numerical and categorical variables. | `sklearn.pipeline`, Imputation, Scaling, Encoding. |
+| `04a-preprocessing-step-by-step.ipynb` | **Feature Engineering (Step-by-Step)**. Detailed walkthrough of each preprocessing step for learning purposes. | Manual Feature Engineering, Data Leakage Prevention, Fit/Transform Paradigm. |
+| `04b-preprocessing-pipeline.ipynb` | **Feature Engineering (Production)**. Complete sklearn pipeline for end-to-end inference. | `sklearn.pipeline`, Custom Transformers, Production Deployment. |
 | `05-modeling.ipynb` | **Modeling & Evaluation**. Training multiple models, tuning hyperparameters, and final evaluation. | Baseline, Linear Models (Ridge, Lasso), Ensembles (RandomForest, GradientBoosting), Cross-Validation vs Validation Set. |
+
 
 ## Requirements
 
