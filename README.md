@@ -31,6 +31,7 @@ The project is structured into sequential notebooks, each focusing on a critical
 | `04a-preprocessing-step-by-step.ipynb` | **Feature Engineering (Step-by-Step)**. Detailed walkthrough of each preprocessing step for learning purposes. | Manual Feature Engineering, Data Leakage Prevention, Fit/Transform Paradigm. |
 | `04b-preprocessing-pipeline.ipynb` | **Feature Engineering (Production)**. Complete sklearn pipeline for end-to-end inference. | `sklearn.pipeline`, Custom Transformers, Production Deployment. |
 | `05-modeling.ipynb` | **Modeling & Evaluation**. Training multiple models, tuning hyperparameters, and final evaluation. | Baseline, Linear Models (Ridge, Lasso), Ensembles (RandomForest, GradientBoosting), Cross-Validation vs Validation Set. |
+| `06-deep-learning.ipynb` | **Deep Learning**. Building and training a neural network with PyTorch and comparing it against the best sklearn model. | PyTorch, Target Scaling, Batch Normalization, Dropout, Early Stopping, Train/Eval mode. |
 
 
 ## Requirements
@@ -39,6 +40,7 @@ The project uses standard Python data science libraries:
 - `numpy`, `pandas`
 - `matplotlib`, `seaborn`
 - `scikit-learn`
+- `torch` (for notebook 06)
 - `kagglehub` (for data download)
 
 Ensure you have these installed within your environment (recommended to use `uv` as per course guidelines).
